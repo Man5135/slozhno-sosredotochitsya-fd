@@ -1,0 +1,43 @@
+.theme-light .page {
+  --background-image: url(../images/cover-image-light.png);
+  --background-color: var(--color-pink-seventh, #FFF1F7);
+  --title-color: var(--color-pink-sixth, #FFC2E6);
+  --header-text-color: var(--color-grey, #353430);
+  --decorated-color: var(--color-grey, #353430);
+  --decorated-color-hover: var(--color-grey-hover, #35343040);
+  --section-title-color: var(--color-grey, #353430);
+  --article-title-color: var(--color-grey, #353430);
+  --accent-color: #FF8DCB;
+  --text-color: var(--color-grey, #F1B2CE);
+  --hover-color: var(--color-pink-fourth, #353430);
+  --focus-color: var(--color-pink-fourth, #353430);
+  
+}
+
+.theme-light .page .recording{
+  display: none;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-color: var(--color-pink-seventh, #FFF1F7);
+    --background-image: url('../images/cover-image-light.png');
+    --title-color: var(--color-pink-sixth, #FFC2E6);
+    --header-text-color: var(--color-grey, #353430);
+    --decorated-color: var(--color-grey, #353430);
+    --decorated-color-hover: var(--color-grey-hover, #35343040);
+    --section-title-color: var(--color-grey, #353430);
+    --article-title-color: var(--color-grey, #353430);
+    --accent-color: #FF8DCB;
+    --text-color: var(--color-grey, #F1B2CE);
+    --hover-color: var(--color-pink-fourth, #353430);
+    --focus-color: var(--color-pink-fourth, #353430);
+    
+  }
+  .recording{
+    display: none;
+  }
+}
+
+

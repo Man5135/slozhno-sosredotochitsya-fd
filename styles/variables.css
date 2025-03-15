@@ -1,0 +1,17 @@
+:root{
+  --color-pink-first: #FF0070;
+  --color-pink-second: #DB00FF;
+  --color-pink-third: #f1b2ce;
+  --color-pink-fourth: #FF8DCB;
+  --color-pink-fifth:#FFC2E6;
+  --color-pink-hover: #ff007040;
+
+  --color-dark-blue: #000028;
+  --color-grey-hover: #35343040;
+  --color-grey:#353430;
+
+  
+  --font-family: 'IBM Plex mono', monospace;
+  --font-size:18px;
+  --background-image: url(../images/cover-image-dark.png);
+}
